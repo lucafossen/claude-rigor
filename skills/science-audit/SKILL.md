@@ -50,7 +50,7 @@ being documented, not rewritten.
 - If the project has no research standard, read the generic one that ships alongside this skill,
   at `template/.claude/rules/research-workflow.md` relative to the root of this skill's own
   directory tree, and tell the user the project is being judged against it rather than against
-  conventions of its own. Offer to install it with `/research:adopt`.
+  conventions of its own. Offer to install it with `/research:onboard`.
 - Check whether the project conventions (the equivalent of Section 13) are actually
   established or just left blank. If they are unset, treat that as a priority.
   Make closing it a lead recommendation, and offer to work the conventions out with the user

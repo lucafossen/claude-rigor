@@ -9,7 +9,7 @@
     {
       "name": "research",
       "source": "./",
-      "description": "Three skills for research projects: /research:adopt installs the research standard into a project and settles its conventions; /research:science-audit checks a project for reproducibility, provenance and honest reporting; /research:tutor helps you re-understand a project you built with heavy assistance."
+      "description": "Three skills for research projects: /research:onboard installs the research standard into a project and settles its conventions; /research:science-audit checks a project for reproducibility, provenance and honest reporting; /research:tutor helps you re-understand a project you built with heavy assistance."
     }
   ]
 }

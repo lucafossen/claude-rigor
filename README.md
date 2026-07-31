@@ -3,7 +3,7 @@
 A research standard that points Claude Code at a scientific workflow (provenance, reproducibility,
 protected source data, honest reporting, interpreting a number before trusting it, and keeping the
 researcher able to explain their own project) instead of its default ship-the-software mindset.
-Ships with three skills: `adopt` installs the standard into a project and settles its conventions,
+Ships with three skills: `onboard` installs the standard into a project and settles its conventions,
 `science-audit` checks a project against those principles, and `tutor` helps you re-understand a
 project you have been building.
 
@@ -20,7 +20,7 @@ Inside Claude Code, once per machine:
 /plugin install research@claude-rigor
 ```
 
-They invoke as `/research:adopt`, `/research:science-audit` and `/research:tutor`. Plugin skills are
+They invoke as `/research:onboard`, `/research:science-audit` and `/research:tutor`. Plugin skills are
 namespaced, which is why the `research:` prefix appears.
 
 Installing them once for the machine does not affect your non-research projects. A skill is inert
@@ -32,7 +32,7 @@ The standard is what changes how Claude behaves, and that is what you turn on pe
 In the project you want it in:
 
 ```
-/research:adopt
+/research:onboard
 ```
 
 That writes the standard to `.claude/rules/research-workflow.md` and then works through Section 13
@@ -73,11 +73,11 @@ Sections 1-12 and keep a short per-project file for Section 13, imported from th
 
 The standard is also not committed next to the results it governed, so a repository no longer
 records which version of the rules applied. If that matters for a given project, use
-`/research:adopt` there instead.
+`/research:onboard` there instead.
 
-## adopt
+## onboard
 
-`/research:adopt [path]` turns the standard on for one project: it writes
+`/research:onboard [path]` turns the standard on for one project: it writes
 `.claude/rules/research-workflow.md`, then works through Section 13 with you, proposing what the
 repository already answers and asking about the rest. Settling those conventions is the part a
 copied file leaves undone. The standard is written to hang on them, and until they are set it

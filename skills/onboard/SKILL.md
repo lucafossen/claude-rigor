@@ -1,10 +1,10 @@
 ---
-name: adopt
-description: Install the scientific research standard into the current project, then settle its project conventions. Use when the user wants to adopt the research workflow here, asks to "adopt the research standard", "install the research workflow", "set up research conventions", or wants a project to start following the reproducibility and provenance rules.
+name: onboard
+description: Install the scientific research standard into the current project, then settle its project conventions. Use when the user wants to onboard a project onto the research workflow, asks to "onboard this project", "adopt the research standard", "install the research workflow", "set up research conventions", or wants a project to start following the reproducibility and provenance rules.
 argument-hint: "[path to project, defaults to current directory]"
 ---
 
-# adopt
+# onboard
 
 Turn the research standard on for one project, and leave it usable rather than merely present.
 
@@ -24,7 +24,7 @@ installed and Section 13 honestly marked open.
 
 Read the shipped copy at `template/.claude/rules/research-workflow.md`, relative to the root of
 this skill's own directory tree — the same tree this `SKILL.md` sits in, two levels up from
-`skills/adopt/`. When the skill is installed as a plugin that root is inside the plugin cache;
+`skills/onboard/`. When the skill is installed as a plugin that root is inside the plugin cache;
 when it was copied into a project it is that project's copy. If it is not at that path, search for
 `research-workflow.md` nearby before giving up, and say plainly if you cannot find it rather than
 writing a standard from memory.
