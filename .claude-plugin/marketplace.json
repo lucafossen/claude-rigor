@@ -1,0 +1,15 @@
+{
+  "name": "claude-rigor",
+  "description": "Skills that support a scientific research workflow in Claude Code: auditing a project for reproducibility and honest reporting, and recovering your own understanding of it.",
+  "owner": {
+    "name": "Luca Blaauw Fossen",
+    "url": "https://github.com/lucafossen"
+  },
+  "plugins": [
+    {
+      "name": "research",
+      "source": "./",
+      "description": "Three skills for research projects: /research:adopt installs the research standard into a project and settles its conventions; /research:science-audit checks a project for reproducibility, provenance and honest reporting; /research:tutor helps you re-understand a project you built with heavy assistance."
+    }
+  ]
+}

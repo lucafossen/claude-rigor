@@ -1,0 +1,11 @@
+{
+  "name": "research",
+  "description": "Scientific research workflow for Claude Code. Run /research:adopt in a project to install the standard and settle its conventions; /research:science-audit checks a project against it, and /research:tutor helps you re-understand one you built. Installing the plugin changes nothing until a project adopts the standard.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luca Blaauw Fossen",
+    "url": "https://github.com/lucafossen"
+  },
+  "homepage": "https://github.com/lucafossen/claude-rigor",
+  "repository": "https://github.com/lucafossen/claude-rigor"
+}
